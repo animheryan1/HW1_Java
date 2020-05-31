@@ -7,110 +7,110 @@ public class Part5 {
     private static Random random = new Random();
 
     public static void main(String[] args) {
-//        //5.1
-//        int num1 = random.nextInt();
-//        int num2 = random.nextInt();
-//        System.out.println(sum(num1, num2));
-//
-//        //5.2
-//        int num3 = random.nextInt();
-//        int num4 = random.nextInt();
-//        System.out.println(product(num1, num2));
-//
-//        //5.3
-//        System.out.println("give number");
-//        int num5 = scanner.nextInt();
-//        System.out.println("give second number");
-//        int num6 = scanner.nextInt();
-//        int product = product(num5, num6);
-//        System.out.println("Cube of product is "+ cube(product));
-//
-//        //5.4
-//        //from HW1.10
-//        System.out.println("Input the 1st number");
-//        int input1 = scanner.nextInt();
-//        System.out.println("Input the 2st number");
-//        int input2 = scanner.nextInt();
-//        System.out.println("Input the 3rd number");
-//        int input3 = scanner.nextInt();
-//        System.out.println("The greatest is " + maxOfThree(input1, input2, input3));
-//
-//        //5.5
-//        scanner.nextLine();
-//        System.out.println("Inout string");
-//        String text = scanner.nextLine();
-//        System.out.println("Middle is "+ findMiddleChar(text));
+        //5.1
+        int num1 = random.nextInt();
+        int num2 = random.nextInt();
+        System.out.println(sum(num1, num2));
 
-//        //5.6
-//        System.out.println("Give sentence");
-//        String str = scanner.nextLine();
-//        System.out.println("Word count is " + countWords(str));
+        //5.2
+        int num3 = random.nextInt();
+        int num4 = random.nextInt();
+        System.out.println(product(num1, num2));
 
-//        //5.7
-//        System.out.println("Enter a year");
-//        int year = scanner.nextInt();
-//        System.out.println("Is leap year: " + isLeapYear(year));
-//
-//        //5.8
-//        System.out.println("Enter password");
-//        String pass = scanner.nextLine();
-//        System.out.println("Is valid: " + isValid(pass));
+        //5.3
+        System.out.println("give number");
+        int num5 = scanner.nextInt();
+        System.out.println("give second number");
+        int num6 = scanner.nextInt();
+        int product = product(num5, num6);
+        System.out.println("Cube of product is " + cube(product));
 
-////        5.9
-//        System.out.println("Give r");
-//        int r = scanner.nextInt();
-//        System.out.println("Perimeter is -" + getPerimeter(r));
-//        System.out.println("Area is -" + getArea(r));
+        //5.4
+        //from HW1.10
+        System.out.println("Input the 1st number");
+        int input1 = scanner.nextInt();
+        System.out.println("Input the 2st number");
+        int input2 = scanner.nextInt();
+        System.out.println("Input the 3rd number");
+        int input3 = scanner.nextInt();
+        System.out.println("The greatest is " + maxOfThree(input1, input2, input3));
 
-//        //5.10
-//        System.out.println("Give first side of triangle");
-//        int side1 = scanner.nextInt();
-//        System.out.println("Give second side of triangle");
-//        int side2 = scanner.nextInt();
-//        System.out.println("Give third side of triangle");
-//        int side3 = scanner.nextInt();
-//
-//        if (isValidTriangle(side1, side2, side3)) {
-//            System.out.println("Perimeter is " + getPerimeter(side1, side2, side3));
-//            System.out.println("Area is " + getArea(side1, side2, side3));
-//        }
+        //5.5
+        scanner.nextLine();
+        System.out.println("Inout string");
+        String text = scanner.nextLine();
+        System.out.println("Middle is " + findMiddleChar(text));
 
-//        //5.11
-//        int[] arr = new int[10];
-//        initArrayWithRandomInts(arr);
-//        printArr(arr);
+        //5.6
+        System.out.println("Give sentence");
+        String str = scanner.nextLine();
+        System.out.println("Word count is " + countWords(str));
 
-//        //5.12
-//        System.out.println();
-//        int[] arr2 = new int[10];
-//        initArrayWithRandomInts(arr2);
-//        int[] sorted = sortAsc(arr2);
-//        printArr(sorted);
-//
-//        //5.13
-//        System.out.println();
-//        int[] arr3 = new int[10];
-//        initArrayWithRandomInts(arr3);
-//        int[] sorted2 = sortDesc(arr2);
-//        printArr(sorted2);
-//
-//        //5.14
-//        printPrimeNumbers(100);
-//        //5.15
-//        System.out.println();
-//        int[] arr4 = new int[10];
-//        initArrayWithRandomInts(arr4);
-//        reverseArray(arr4);
-//        printArr(arr4);
+        //5.7
+        System.out.println("Enter a year");
+        int year = scanner.nextInt();
+        System.out.println("Is leap year: " + isLeapYear(year));
 
-//        //5.16
-//        String str = "abba";
-//        boolean isPalindrome = isPalindrome(str);
-//        System.out.println("abba is palindrome? :" + isPalindrome);
-//
-//        //5.17
-//        int factorial = calculateFactorial(5);
-//        System.out.println("Factorial of 5 is " + factorial);
+        //5.8
+        System.out.println("Enter password");
+        String pass = scanner.nextLine();
+        System.out.println("Is valid: " + isValid(pass));
+
+//        5.9
+        System.out.println("Give r");
+        int r = scanner.nextInt();
+        System.out.println("Perimeter is -" + getPerimeter(r));
+        System.out.println("Area is -" + getArea(r));
+
+        //5.10
+        System.out.println("Give first side of triangle");
+        int side1 = scanner.nextInt();
+        System.out.println("Give second side of triangle");
+        int side2 = scanner.nextInt();
+        System.out.println("Give third side of triangle");
+        int side3 = scanner.nextInt();
+
+        if (isValidTriangle(side1, side2, side3)) {
+            System.out.println("Perimeter is " + getPerimeter(side1, side2, side3));
+            System.out.println("Area is " + getArea(side1, side2, side3));
+        }
+
+        //5.11
+        int[] arr = new int[10];
+        initArrayWithRandomInts(arr);
+        printArr(arr);
+
+        //5.12
+        System.out.println();
+        int[] arr2 = new int[10];
+        initArrayWithRandomInts(arr2);
+        int[] sorted = sortAsc(arr2);
+        printArr(sorted);
+
+        //5.13
+        System.out.println();
+        int[] arr3 = new int[10];
+        initArrayWithRandomInts(arr3);
+        int[] sorted2 = sortDesc(arr2);
+        printArr(sorted2);
+
+        //5.14
+        printPrimeNumbers(100);
+        //5.15
+        System.out.println();
+        int[] arr4 = new int[10];
+        initArrayWithRandomInts(arr4);
+        reverseArray(arr4);
+        printArr(arr4);
+
+        //5.16
+        String str2 = "abba";
+        boolean isPalindrome = isPalindrome(str2);
+        System.out.println("abba is palindrome? :" + isPalindrome);
+
+        //5.17
+        int factorial = calculateFactorial(5);
+        System.out.println("Factorial of 5 is " + factorial);
 
         //5.18
         System.out.println("Give size");
